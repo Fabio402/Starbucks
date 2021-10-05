@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
+body{
+    font-family: 'Open Sans', 'Sans-serif';
+    margin: 0;
+}
+header .line{
+    background-color: #117050;
+    height: 10px;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.logo img{
+    width: 64;
+    height: 64;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.busca form{
+    display: flex;
+}
+.busca input{
+    font-size: 16px;
+    padding: 7px 10px;
+    border: 1px solid #999999;
+    outline: 0;
+    width: 100%;
+    max-width: 250px;
+}
+.busca button{
+    background: transparent;
+    height: 34px;
+    width: 34px;
+    margin-left: -30px;
+    border-color: transparent;
+    cursor: pointer;
+}
+.busca button img{
+    height: 14px;
+    width: 14px;
+}
+.menu-ico button{
+    margin-left: 40px;
+    margin-right: 40px;
+    border-color: transparent;
+    height: 36px;
+    width: 36px;
+    background: transparent;
+    cursor: pointer;
+}
+.menu-ico button img{
+    height: 24px;
+    width: 24px;
+}
+.menu{
+    display: none;
+}
+
+.banner1{
+    background-image:image("./Images/bg")
+}
+.banner1-imgs{
+    display: flex;
+}
+.content h1{
+    font-family: Oswald;
+}
